@@ -16,5 +16,10 @@
       "es2018",
       "dom"
     ]
+  },
+  // 需加入下列設定Angular Language Service才會顯示問題
+  "angularCompilerOptions": {
+      "strictTemplates": true
   }
 }
+
