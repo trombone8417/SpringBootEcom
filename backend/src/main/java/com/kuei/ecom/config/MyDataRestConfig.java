@@ -1,9 +1,6 @@
 package com.kuei.ecom.config;
 
-import com.kuei.ecom.entity.Country;
-import com.kuei.ecom.entity.Product;
-import com.kuei.ecom.entity.ProductCategory;
-import com.kuei.ecom.entity.State;
+import com.kuei.ecom.entity.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
@@ -39,6 +36,7 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
         disableHttpMethods(ProductCategory.class,config, theUnsupportedActions);
         disableHttpMethods(Country.class,config, theUnsupportedActions);
         disableHttpMethods(State.class,config, theUnsupportedActions);
+        disableHttpMethods(Order.class,config, theUnsupportedActions);
 
         exposeIds(config);
 
