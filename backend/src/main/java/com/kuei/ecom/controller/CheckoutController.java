@@ -5,7 +5,6 @@ import com.kuei.ecom.dto.PurchaseResponse;
 import com.kuei.ecom.service.CheckoutService;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/api/checkout")
 public class CheckoutController {
