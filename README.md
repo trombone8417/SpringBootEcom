@@ -9,6 +9,9 @@
 ![alt 購物車](md-img/shoppingCart.png)
 ##### 結帳
 ![alt 結帳](md-img/checkout.png)
+##### 購買紀錄
+![alt 購買紀錄](md-img/history.png)
+
 ##### 登入
 ![alt 登入](md-img/login.png)
 
